@@ -1,2 +1,3 @@
+#Example list
 serverlocation,location=zone1,server=master.example.com value=1
 serverlocation,location=zone2,server=node01.example.com value=1
