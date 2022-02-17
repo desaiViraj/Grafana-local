@@ -1,0 +1,9 @@
+
+root@master:/# curl -i -XPOST 'http://localhost:8086/write?db=telegraf' --data-binary @/tmp/servers.txt
+HTTP/1.1 204 No Content
+Content-Type: application/json
+Request-Id: 9f5e38df-819a-11ec-8575-0a4c2febca92
+X-Influxdb-Build: OSS
+X-Influxdb-Version: 1.8.10
+X-Request-Id: 9f5e38df-819a-11ec-8575-0a4c2febca92
+Date: Sun, 30 Jan 2022 07:02:44 GMT
